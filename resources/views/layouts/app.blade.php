@@ -3,7 +3,8 @@
 <head>
     <title>@yield('title', 'Automated Payroll System')</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.3/dist/tailwind.min.css" rel="stylesheet">
+
     <!-- Bootstrap 5 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     
@@ -26,7 +27,7 @@
       <ul class="navbar-nav ms-auto">
         <li class="nav-item"><a class="nav-link active" href="/">Home</a></li>
         <li class="nav-item"><a class="nav-link" href="/payroll">Payroll</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">Employees</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">About</a></li>
         <li class="nav-item"> <a class="nav-link btn btn-primary text-white px-3 ms-2" href="{{ route('login') }}">Login</a>
 </li>
 </ul>

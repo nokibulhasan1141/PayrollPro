@@ -1,0 +1,11 @@
+INSERT INTO employees (employee_id, name, department, role, created_at, updated_at) VALUES
+('EMP001', 'John Doe', 'IT', 'Developer', NOW(), NOW()),
+('EMP002', 'Jane Smith', 'HR', 'HR Manager', NOW(), NOW()),
+('EMP003', 'Michael Johnson', 'Finance', 'Accountant', NOW(), NOW()),
+('EMP004', 'Emily Davis', 'IT', 'System Analyst', NOW(), NOW()),
+('EMP005', 'Robert Brown', 'Sales', 'Sales Executive', NOW(), NOW()),
+('EMP006', 'Linda Wilson', 'Marketing', 'Marketing Lead', NOW(), NOW()),
+('EMP007', 'David Taylor', 'Support', 'Customer Support', NOW(), NOW()),
+('EMP008', 'Sophia Anderson', 'Finance', 'Financial Analyst', NOW(), NOW()),
+('EMP009', 'James Thomas', 'Operations', 'Operations Manager', NOW(), NOW()),
+('EMP010', 'Olivia Martinez', 'IT', 'Software Engineer', NOW(), NOW());

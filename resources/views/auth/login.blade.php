@@ -8,7 +8,7 @@
         <div class="card-body p-4">
             <h2 class="text-center fw-bold mb-4">Login</h2>
             
-            <form method="POST" action="#">
+            <form method="POST" action="{{ route('login.post') }}">
                 @csrf
                 <div class="mb-3">
                     <label for="email" class="form-label fw-semibold">Email address</label>
