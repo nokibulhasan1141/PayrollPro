@@ -24,6 +24,13 @@ Route::get('/login', function () {
     return view('auth.login'); // make sure login.blade.php is inside resources/views/auth
 })->name('login');
 
+
+use App\Http\Controllers\ContactController;
+
+Route::view('/contact', 'contact')->name('contact');
+Route::post('/contact', [ContactController::class, 'store'])->name('contact.store');
+
+
 use App\Http\Controllers\HRLeaveController;
 
 Route::prefix('hr')->group(function () {

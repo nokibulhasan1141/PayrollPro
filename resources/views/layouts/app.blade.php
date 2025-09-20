@@ -28,6 +28,7 @@
         <li class="nav-item"><a class="nav-link active" href="/">Home</a></li>
         <li class="nav-item"><a class="nav-link" href="/payroll">Payroll</a></li>
         <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="/contact">Contact</a></li>
         <li class="nav-item"> <a class="nav-link btn btn-primary text-white px-3 ms-2" href="{{ route('login') }}">Login</a>
 </li>
 </ul>
